@@ -1,0 +1,19 @@
+public class gcd {
+    public static void main(String[] args) {
+        int n1=140,n2=175,n=1;
+        if(n1!=n2) {
+            while(n!=0){
+                n= n1%n2;
+                if(n!=0) {
+                    n1=n2;
+                    n2=n;
+                }
+            }
+            System.out.println(n2+" gcd of ");
+
+        }
+        else 
+        System.out.println("roung number");
+    }
+    
+}
